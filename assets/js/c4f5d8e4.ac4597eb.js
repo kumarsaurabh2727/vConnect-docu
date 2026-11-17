@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkv_connect_docu=self.webpackChunkv_connect_docu||[]).push([["4823"],{7176(c,n,e){e.r(n),e.d(n,{default:()=>u});var o=e(4848),t=e(6347);function u(){return(0,o.jsx)(t.rd,{to:"/vConnect-docu/docs/intro"})}}}]);
