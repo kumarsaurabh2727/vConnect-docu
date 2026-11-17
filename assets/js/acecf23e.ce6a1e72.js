@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkv_connect_docu=self.webpackChunkv_connect_docu||[]).push([["3220"],{1912(o){o.exports=JSON.parse('{"blogBasePath":"/vConnect-docu/blog","blogTitle":"Blog","authorsListPath":"/vConnect-docu/blog/authors"}')}}]);

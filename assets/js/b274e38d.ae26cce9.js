@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkv_connect_docu=self.webpackChunkv_connect_docu||[]).push([["3339"],{3861(e){e.exports=JSON.parse('{"metadata":{"permalink":"/vConnect-docu/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
