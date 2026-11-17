@@ -21,8 +21,8 @@ const sidebars = {
           type: 'category',
           label: 'vConnect Features',
           items: [
-            'getting-started-with-vConnect/vConnect-features/vConnect-core-functions',
             'getting-started-with-vConnect/vConnect-features/vConnect-connector',
+            'getting-started-with-vConnect/vConnect-features/vConnect-core-functions',
             'getting-started-with-vConnect/vConnect-features/miscellaneous-features',
           ],
         },
