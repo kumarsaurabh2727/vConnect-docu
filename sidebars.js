@@ -24,6 +24,7 @@ const sidebars = {
             'getting-started-with-vConnect/vConnect-features/vConnect-connector',
             'getting-started-with-vConnect/vConnect-features/vConnect-core-functions',
             'getting-started-with-vConnect/vConnect-features/miscellaneous-features',
+            'getting-started-with-vConnect/vConnect-features/security-features'
           ],
         },
       ],

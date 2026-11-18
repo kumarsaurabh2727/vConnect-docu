@@ -1,0 +1,19 @@
+# Security Features
+
+|**Feature**|**Description**|
+|-------|-------|
+|**Time-Synchronization Check**|Allows you to check the time difference between the device and server time.|
+|**Authentication Levels**|Handles different levels of Authentication.|
+|**IMEI (International Mobile Equipment Identity)/SIM Authentication**|Enables IMEI number or SIM card type authentication.|
+|**Session Management**|It maintains two types of sessions: Device Session and User Session. Device session is created after the app is installed on the device. The user session is created after the user logs in the app successfully.<br/><br/>The scope of server side API(s) is defined as device session or user session. If the scope of an API is defined as user session and the API is invoked with device session token, it cannot use the respective API. It configures the session timeout for device session and user session.<br/><br/>The inactive session timeout can also be configured. For instance: - If a user does not perform any activity for the last x minutes, the user session will automatically log out of the application.|
+|**Strong Encryption Algorithm**|It offers different types of encryption mechanism such as RSA, AES, RSA+AES, etc.|
+|**Different Level of Keys Management**|It provides user key management and device key management.|
+|**Encrypted Request and Response Over Format**|All the requests and responses that are transmitted between front end app/application and middleware system are encrypted by using a RSA+AES key algorithm.|
+|**User Key Management and Rotation**|Every user has different RSA and AES key for encrypting and decrypting the data. At a given point of time, the rotation of user specific key is configured in VConnect. Each end user request is authenticated by using JWT. Keys can be rotated dynamically for a user/app.|
+|**Data Masking**|All the PI (Personal Information) data (For example: - Password) can be masked by using configuration. You can configure rules for masking. For instance: - You can mask last 4 characters or mask middle 3 characters, etc.|
+|**PI Data Encryption**|All the PI data can be encrypted by using user AES key. We can configure JSON Keys’ names for encryption.|
+|**Digital Signing of Request and Response**|All the request and response data that is transmitted between app/web application and middleware is digitally signed. During data transmission, if any single byte of data is spoofed, the middleware system will not accept the data.|
+|**Unique Request ID**|Every request that is posted to the middleware should have a unique request-Id. If someone attempts to copy and paste the existing request, middleware will not validate the request. As a result of validation failure, it will return the error message.|
+|**Application Access Control**|It remotely disables the access to an application by configuring the application access on the vConnect portal.|
+|**IP Whitelist and Filtering**|If any application requires to work only from a specific IP address or a range of IP addresses, you can configure the IP address filtering/whitelisting in the middleware.|
+|**Device and Login Binding**|If a user want to use the application only from specific IMEI, the respective IMEI number can be configured by using the login Id of the user.|    
